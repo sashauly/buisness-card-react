@@ -9,8 +9,19 @@ export default function Main(props) {
     name: "LinkedIn",
     style: "btn__linkedin",
   };
-  if (new URL(props.resume).hostname === "hh.ru") {
-    resumeSettings = { icon: hhIcon, name: "HeadHunter", style: "btn__hh" };
+  function isValidUrl(string) {
+    try {
+      new URL(string);
+      return true;
+    } catch (err) {
+      return false;
+    }
+  }
+  if (props.resume && isValidUrl(props.resume)) {
+    const hostname = new URL(props.resume).hostname;
+    if (hostname === "hh.ru") {
+      resumeSettings = { icon: hhIcon, name: "HeadHunter", style: "btn__hh" };
+    }
   }
   return (
     <div className="main__container">
@@ -31,12 +42,14 @@ export default function Main(props) {
             Email
           </button>
         </a>
-        <a href={`${props.resume}`} target="_blank" rel="noreferrer">
-          <button className={`btn-reset btn ${resumeSettings.style}`}>
-            <img src={resumeSettings.icon} width="17px" />
-            {resumeSettings.name}
-          </button>
-        </a>
+        {props.resume && isValidUrl(props.resume) && (
+          <a href={`${props.resume}`} target="_blank" rel="noreferrer">
+            <button className={`btn-reset btn ${resumeSettings.style}`}>
+              <img src={resumeSettings.icon} width="17px" />
+              {resumeSettings.name}
+            </button>
+          </a>
+        )}
       </div>
       <div className="main__content">
         <h2 className="content__title">About</h2>

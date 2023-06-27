@@ -5,13 +5,11 @@ export default {
   site: "https://github.com/sashauly",
   email: "sashauly.code@gmail.com",
   resume: "https://hh.ru/resume/f125f0d0ff0bd8222b0039ed1f6c354b38686e",
-  about:
-    "I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.",
-  interests:
-    "Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.",
-  twitter: "1",
-  facebook: "2",
-  instagram: "3",
+  about: "I am a frontend developer as you can see. Trying my best so far...",
+  interests: "Maybe some day this section will go absolete",
+  twitter: "",
+  facebook: "",
+  instagram: "",
   github: "https://github.com/sashauly",
-  telegram: "5",
+  telegram: "https://t.me/sashauly",
 };
