@@ -1,14 +1,12 @@
 import React from "react";
-import profilePhoto from "../images/profile.png";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className="header__container">
       <img
-        src={profilePhoto}
+        src={`src/images/${props.photo}`}
         alt="profile-photo"
-        width="317px"
-        height="317px"
+        className="header__img"
       />
     </div>
   );
