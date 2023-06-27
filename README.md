@@ -44,6 +44,7 @@ Just open [the live version](https://sashauly.github.io/business-card-react/). F
 - Maybe add a simple form to make custom card
 - Option to change color palette
 - Option to export new custom card to html file.
+- There's a luck og hover and active effects in css styling...
 
 ## Project status
 
