@@ -25,6 +25,8 @@ An educational project to get acquainted with basics of React.
 Project is created with:
 
 - JavaScript ES6
+- HTML5
+- CSS
 - React(props)
 - Vite
 
