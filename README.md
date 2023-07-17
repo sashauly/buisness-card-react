@@ -2,7 +2,8 @@
 
 ![Overview](./misc/overview.png)
 
-Live demo [_here_](https://sashauly.github.io/business-card-react/).
+> Business card on React, first project to get familiar with it and vite.
+> Live demo [_here_](https://sashauly.github.io/business-card-react/).
 
 ## Table of contents
 
@@ -27,8 +28,8 @@ Project is created with:
 - JavaScript ES6
 - HTML5
 - CSS
-- React(props)
-- Vite
+- [React 18.2.0](https://react.dev/)(props)
+- [vite 4.4.0](https://vitejs.dev/)
 
 ## Setup
 
@@ -49,6 +50,9 @@ Just open [the live version](https://sashauly.github.io/business-card-react/). F
 ## Project status
 
 Project is: _in progress_(for now maybe?)
+
+## Acknowledgements
+- This project was based on [this Scrimba course tutorial](https://scrimba.com/learn/learnreact).
 
 ## Contacts
 
